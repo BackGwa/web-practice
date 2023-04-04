@@ -1,0 +1,15 @@
+.signup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.idcheck {
+    display: flex;
+}
+
+.chkbtn {
+    margin-left: 8px;
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+
+nav{
+    width: calc(100% - 20px);
+    height: 45px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 10px;
+    white-space: nowrap;
+}
+
+.navbar {
+    background: linear-gradient(to bottom right, #101B27ff ,#101B34dd);
+    color: #f5f5f5;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(0px 0px 25px #111122aa);
+}
+
+.navleft {
+    list-style: none;
+    display: flex;
+    padding-left: 15px;
+}
+
+.navright {
+    list-style: none;
+    display: flex;
+    padding-right: 25px;
+}
+
+.navitem {
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+    display: flex;
+}
+
+.logotext {
+    margin-left: 6px;
+}
+
+.logoimg {
+    padding: 6px 3px 3px 3px;
+}
+
+.navbtn {
+    margin: 0px 5px 0px 5px;
+    background-color: transparent;
+    border: transparent;
+    padding: 12px;
+    color: #f5f5f5;
+}
+
+.sublogotext {
+    margin-left: 5px;
+}

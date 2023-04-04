@@ -1,0 +1,14 @@
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    overflow-y: scroll;
+}
